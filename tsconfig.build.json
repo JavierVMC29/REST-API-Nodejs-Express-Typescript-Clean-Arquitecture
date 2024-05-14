@@ -1,0 +1,19 @@
+{
+    "extends": "./tsconfig.json",
+    "include": ["src/**/*"],
+    "exclude": [
+      "node_modules",
+      "tests",
+      "jest.config.ts",
+      "**/*.spec.ts",
+      "**/*.test.ts",
+      "coverage",
+      "cucumber-report.html",
+      "rest-client"
+    ],
+    "compilerOptions": {
+      "rootDir": "./src",
+      "outDir": "dist/"
+    }
+  }
+  
